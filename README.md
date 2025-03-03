@@ -1,4 +1,4 @@
-# R-AIF: Solving Sparse-Reward Robotic Tasks from Pixels with Active Inference and World Models
+# SR-AIF: Solving Sparse-Reward Robotic Tasks from Pixels with Active Inference and World Models
 
 <p align="center">
   <img src="docs/raif_experiment_results.gif" alt="Experiment Results of R-AIF Experiment"
