@@ -5,7 +5,7 @@
     width="70%"/>
 </p>
 
-There is relatively little work that builds general active inference (AIF) models in the context of partially observable Markov decision processes (POMDPs), particularly those that characterize visual, pixel-level environments. Notably, in these POMDP scenarios, the agent must work to understand (infer) the hidden state of the world from raw sensory observations, e.g., pixel intensities. Additionally, even less work exists in examining the most difficult form of POMDP-centered control: continuous action space POMDPs under **sparse reward signals**. This work addresses these issues by introducing a novel AIF framework (which we call robust AIF; R-AIF), incorporating new **prior preference learning techniques** and **self-revision** schedules to help the agent excel in sparse-reward, continuous action, goal-based robotic control environments. This repository contains detailed documentation needed to run our proposed R-AIF agent(s).
+There is relatively little work that builds general active inference (AIF) models in the context of partially observable Markov decision processes (POMDPs), particularly those that characterize visual, pixel-level environments. Notably, in these POMDP scenarios, the agent must work to understand (infer) the hidden state of the world from raw sensory observations, e.g., pixel intensities. Additionally, even less work exists in examining the most difficult form of POMDP-centered control: continuous action space POMDPs under **sparse reward signals**. This work addresses these issues by introducing a novel AIF framework (which we call self-revising active inference; SR-AIF), incorporating new **prior preference learning techniques** and **self-revision** schedules to help the agent excel in sparse-reward, continuous action, goal-based robotic control environments. This repository contains detailed documentation needed to run our proposed SR-AIF agent(s).
 
 The implementation documentation can be found in [`docs/ImplementationDetailsDocumentation.pdf`](docs/ImplementationDetailsDocumentation.pdf), which is very helpful for understanding the logic of (and mathematical framework behind) this research effort and its corresponding code base.
 
@@ -18,7 +18,7 @@ The implementation documentation can be found in [`docs/ImplementationDetailsDoc
 ### ArXiv Preprint, Project Video Description, and Research Blog Can be Found Below
 [![ArXiv Preprint](https://img.shields.io/badge/arXiv-2409.14216-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2409.14216)
 [![Video Description](https://img.shields.io/badge/youtube-project_video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/4dH1D17ry4s?si=bvUhJ9IIgi3J1zeV)
-[![Blog](https://img.shields.io/badge/Website-Research_Blog-961212?style=for-the-badge)](https://vietdung.me/publications/raif)
+[![Blog](https://img.shields.io/badge/Website-Research_Blog-961212?style=for-the-badge)](https://vietdung.me/publications/sr-aif)
 
 ## Requirements
 
