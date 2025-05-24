@@ -17,7 +17,7 @@ The implementation documentation can be found in [`docs/ImplementationDetailsDoc
 
 ### ArXiv Preprint, Project Video Description, and Research Blog Can be Found Below
 [![ArXiv Preprint](https://img.shields.io/badge/arXiv-2409.14216-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2409.14216)
-[![Video Description](https://img.shields.io/badge/youtube-project_video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/4dH1D17ry4s?si=bvUhJ9IIgi3J1zeV)
+[![Video Description](https://img.shields.io/badge/youtube-project_video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/eGbEAUJi934?feature=shared)
 [![Blog](https://img.shields.io/badge/Website-Research_Blog-961212?style=for-the-badge)](https://vietdung.me/publications/sr-aif)
 
 ## Requirements
