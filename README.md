@@ -73,3 +73,22 @@ Note that not all of the expert agents are successful in completing the tasks (s
 
 * NOTE: `gcc` is required for building `robosuite`. On `slurm`, one might want to enable gcc by `spack load gcc@9.3.0/hufzekv` before doing `bash install.sh`
 
+# Citation
+
+```bibtex
+@INPROCEEDINGS{Nguyen2025SRAIF,
+  author={Nguyen, Viet Dung and Yang, Zhizhuo and Buckley, Christopher L. and Ororbia, Alexander},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={SR-AIF: Solving Sparse-Reward Robotic Tasks From Pixels with Active Inference and World Models}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={6510-6518},
+  abstract={Although research has produced promising results demonstrating the utility of active inference (AIF) in Markov decision processes (MDPs), there is relatively less work that builds AIF models in the context of environments and problems that take the form of partially observable Markov decision processes (POMDPs). In POMDP scenarios, the agent must infer the unobserved environmental state from raw sensory observations, e.g., pixels in an image. Additionally, less work exists in examining the most difficult form of POMDP-centered control: continuous action space POMDPs under sparse reward signals. In this work, we address issues facing the AIF modeling paradigm by introducing novel prior preference learning techniques and self-revision schedules to help the agent excel in sparse-reward, continuous action, goal-based robotic control POMDP environments. Empirically, we show that our agents offer improved performance over state-of-the-art models in terms of cumulative rewards, relative stability, and success rate.},
+  keywords={Schedules;Computational modeling;Markov decision processes;Instruments;Autoencoders;Active perception;Robot sensing systems;Stability analysis;Manipulator dynamics;Context modeling},
+  doi={10.1109/ICRA55743.2025.11127713},
+  ISSN={},
+  month={May}
+}
+```
+
